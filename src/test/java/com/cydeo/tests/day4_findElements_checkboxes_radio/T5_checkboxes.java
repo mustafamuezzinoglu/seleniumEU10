@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 
 import java.util.concurrent.TimeUnit;
 
-public class T5 {
+public class T5_checkboxes {
 
     public static void main(String[] args) {
 
