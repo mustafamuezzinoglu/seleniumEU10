@@ -9,7 +9,7 @@ import org.openqa.selenium.WebElement;
 
 import java.util.List;
 
-public class T3 {
+public class T3_RadioButton_cont {
 
     public static void main(String[] args) {
 
