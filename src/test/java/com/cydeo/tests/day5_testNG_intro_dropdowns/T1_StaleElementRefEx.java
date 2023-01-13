@@ -23,13 +23,13 @@ public class T1_StaleElementRefEx {
 
 //        3. Click to “Add Element” button
         WebElement addElementButton = driver.findElement(By.xpath("//button[@onclick='addElement()']"));
-        WaitUtility.waitSeconds(2);
+        WaitUtility.sleep(2);
         addElementButton.click();
 //        4. Verify “Delete” button is displayed after clicking.
         WebElement deleteButton = driver.findElement(By.xpath("//button[@class='added-manually']"));
         System.out.println("deleteButton.isDisplayed() = " + deleteButton.isDisplayed());
 //        5. Click to “Delete” button.
-        WaitUtility.waitSeconds(2);
+        WaitUtility.sleep(2);
         deleteButton.click();
 //        6. Verify “Delete” button is NOT displayed after clicking.
         try {

@@ -42,7 +42,7 @@ public class Day6_Tasks {
         Alert alert = driver.switchTo().alert();
 
 //4. Click to OK button from the alert
-        WaitUtility.waitSeconds(1);
+        WaitUtility.sleep(1);
         alert.accept();
 
 //5. Verify “You successfully clicked an alert” text is displayed.
@@ -73,7 +73,7 @@ public class Day6_Tasks {
         Alert alert = driver.switchTo().alert();
 
 //4. Click to OK button from the alert
-        WaitUtility.waitSeconds(1);
+        WaitUtility.sleep(1);
         alert.accept();
 
 //        5. Verify “You clicked: Ok” text is displayed.
@@ -92,7 +92,7 @@ public class Day6_Tasks {
     }
 
     @Test
-    public void Task2_JsPrompt(){
+    public void Task3_JsPrompt(){
 //    TC #3: Information alert practice
 //        1. Open browser
 //        2. Go to website: http://practice.cydeo.com/javascript_alerts
@@ -104,10 +104,10 @@ public class Day6_Tasks {
         Alert alert = driver.switchTo().alert();
 
 //4. Click to OK button from the alert
-        WaitUtility.waitSeconds(2);
+        WaitUtility.sleep(2);
         alert.sendKeys("hello");
 
-        WaitUtility.waitSeconds(3);
+        WaitUtility.sleep(3);
         alert.accept();
 
 //        5. Verify “You clicked: Ok” text is displayed.
@@ -128,7 +128,7 @@ public class Day6_Tasks {
 
 //1. Open browser
 //2. Go to website: http://practice.cydeo.com/javascript_alerts
-//            3. Click to “Click for JS Prompt” button
+//3. Click to “Click for JS Prompt” button
 //4. Send “hello” text to alert
 //5. Click to OK button from the alert
 //6. Verify “You entered: hello” text is displayed.

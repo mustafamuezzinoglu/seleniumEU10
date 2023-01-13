@@ -39,8 +39,11 @@ public class T4_Iframe_Practice {
 //        option#2 - passing index number of iframe
 //        driver.switchTo().frame(0);
 
-//        option#2 - passing index number of iframe
-        driver.switchTo().frame(driver.findElement(By.xpath("//iframe[@id='mce_0_ifr']")));
+//        option#3 - passing index number of iframe
+   //     driver.switchTo().frame(driver.findElement(By.xpath("//iframe[@id='mce_0_ifr']")));
+
+//        option#4 - passing index number of iframe
+        driver.switchTo().frame(driver.findElement(By.xpath("//iframe[@title='Rich Text Area']")));
 
 //        to locate the p tag
         WebElement yourContentGoesThere = driver.findElement(By.xpath("//p"));

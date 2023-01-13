@@ -44,7 +44,7 @@ public class T8_getAllOptions {
                 stateDropdown.selectByValue((each.getAttribute("value")));
                 //     4. Print out all selected values.
                 System.out.println(each.getText());
-                WaitUtility.waitSeconds(1);
+                WaitUtility.sleep(1);
             }
             //      5. Deselect all values.
             stateDropdown.deselectAll();

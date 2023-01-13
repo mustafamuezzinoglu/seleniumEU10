@@ -38,15 +38,15 @@ public class T5_T6_T7_DropdownPractice {
         Select stateDropdown = new Select(driver.findElement(By.xpath("//select[@id='state']")));
 
         //3. Select Illinois
-        WaitUtility.waitSeconds(1);
+        WaitUtility.sleep(1);
         stateDropdown.selectByVisibleText("Illinois");
 
         //4. Select Virginia
-        WaitUtility.waitSeconds(1);
+        WaitUtility.sleep(1);
         stateDropdown.selectByValue("VA");
 
         //5. Select California
-        WaitUtility.waitSeconds(1);
+        WaitUtility.sleep(1);
         stateDropdown.selectByIndex(5);
 
         //6. Verify final selected option is California.
@@ -68,7 +68,7 @@ public class T5_T6_T7_DropdownPractice {
             stateDropdown.selectByVisibleText((eachstate.getText()));
             System.out.println(eachstate.getText());
             //  System.out.println(eachstate.getAttribute("value"));
-            WaitUtility.waitSeconds(0.1);
+            WaitUtility.sleep(0.1);
 
         }
     }

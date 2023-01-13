@@ -21,7 +21,7 @@ public class T2_RadioButton {
         driver.get("https://practice.cydeo.com/radio_buttons");
 //        3. Click to “Hockey” radio button
         WebElement hockeyRadioButton = driver.findElement(By.xpath("//input[@id='hockey']"));
-        WaitUtility.waitSeconds(2);
+        WaitUtility.sleep(2);
         hockeyRadioButton.click();
 //        4. Verify “Hockey” radio button is selected after clicking.
         if(hockeyRadioButton.isSelected()){

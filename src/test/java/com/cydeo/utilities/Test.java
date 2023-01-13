@@ -10,7 +10,7 @@ public class Test {
         WebDriver driver = new ChromeDriver();
         driver.get("https://practice.cydeo.com/radio_buttons ");
         RadioUtility.clickAndVerifyRadioButton(driver, "color", "black" );
-        WaitUtility.waitSeconds(2);
+        WaitUtility.sleep(2);
         RadioUtility.clickAndVerifyRadioButton(driver, "sport", "hockey" );
 
 
