@@ -1,14 +1,11 @@
 package com.cydeo.utilities;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.Wait;
 import org.testng.Assert;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Set;
 
-public class BrowserUtils {
+public class BrowserUtils_withDay8Task5 {
 
     public static void switchWindowAndVerify(WebDriver driver, String expectedUrl, String expectedTitle) {
 

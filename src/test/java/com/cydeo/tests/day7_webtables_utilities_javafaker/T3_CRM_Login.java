@@ -1,17 +1,12 @@
 package com.cydeo.tests.day7_webtables_utilities_javafaker;
 
-import com.cydeo.utilities.BrowserUtils;
-import com.cydeo.utilities.CRM_Utilities;
-import com.cydeo.utilities.WebDriverFactory;
-import com.google.common.base.Verify;
-import org.apache.commons.logging.Log;
+import com.cydeo.utilities.BrowserUtils_withDay8Task5;
+import com.cydeo.utilities.CRM_Utilities_day7_task4;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
-import java.util.concurrent.TimeUnit;
 
 public class T3_CRM_Login {
 
@@ -43,7 +38,7 @@ public class T3_CRM_Login {
 
 //        6. Verify title is as expected:
 //        Expected: Portal
-        BrowserUtils.verifyTitle(driver,"Portal");
+        BrowserUtils_withDay8Task5.verifyTitle(driver,"Portal");
     }
 
     @Test
@@ -52,10 +47,10 @@ public class T3_CRM_Login {
         //2. Go to : https://login1.nextbasecrm.com/
         driver.get("https://login1.nextbasecrm.com/");
 //        3. Enter valid username
-        CRM_Utilities.crm_login(driver);
+        CRM_Utilities_day7_task4.crm_login(driver);
 //        6. Verify title is as expected:
 //        Expected: Portal
-        BrowserUtils.verifyTitle(driver,"Portal");
+        BrowserUtils_withDay8Task5.verifyTitle(driver,"Portal");
     }
 
     @Test
@@ -64,10 +59,10 @@ public class T3_CRM_Login {
         //2. Go to : https://login1.nextbasecrm.com/
         driver.get("https://login1.nextbasecrm.com/");
 //      //Calling my utility method to login helpdesk
-        CRM_Utilities.crm_login(driver,"helpdesk2@cybertekschool.com", "UserUser" );
+        CRM_Utilities_day7_task4.crm_login(driver,"helpdesk2@cybertekschool.com", "UserUser" );
 //        6. Verify title is as expected:
 //        Expected: Portal
-        BrowserUtils.verifyTitle(driver,"Portal");
+        BrowserUtils_withDay8Task5.verifyTitle(driver,"Portal");
     }
 
 

@@ -1,7 +1,5 @@
 package com.cydeo.tests.day8_properties_config_reader;
 
-import com.cydeo.utilities.Before_Method;
-import com.cydeo.utilities.BrowserUtils;
 import com.cydeo.utilities.WebDriverFactory;
 import com.cydeo.utilities.WebTableUtils;
 import org.openqa.selenium.By;
@@ -30,7 +28,7 @@ public class T1_WebTable_Order_Verify {
     }
 
     @Test
-    public void order_name_verify_test() {
+    public void order_name_verify_test1() {
 
         // 1. Go to: https://practice.cydeo.com/web-tables
         driver.get("https://practice.cydeo.com/web-tables");
@@ -75,6 +73,7 @@ public class T1_WebTable_Order_Verify {
         WebTableUtils.orderVerify(driver,"Bart Fisher","01/16/2021");
 
     }
+
 
 }
 

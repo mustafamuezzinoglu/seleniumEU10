@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class CRM_Utilities {
+public class CRM_Utilities_day7_task4 {
     /*
        This method will log in with helpdesk1@cybertekschool.com
         user when it is called
