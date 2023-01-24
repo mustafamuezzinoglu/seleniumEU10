@@ -1,5 +1,6 @@
 package com.cydeo.tests.day7_webtables_utilities_javafaker;
 
+import com.cydeo.tests.base.TestBase;
 import com.cydeo.utilities.BrowserUtils_withDay8Task5;
 import com.cydeo.utilities.CRM_Utilities_day7_task4;
 import org.openqa.selenium.By;
@@ -8,15 +9,8 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class T3_CRM_Login {
+public class T3_CRM_Login extends TestBase {
 
-    public WebDriver driver;
-
-    @BeforeMethod
-    public void setupMethod() {
-
-
-    }
     @Test
     public void crm_login_test() {
 

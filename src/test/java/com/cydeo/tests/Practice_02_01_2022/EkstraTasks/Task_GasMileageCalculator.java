@@ -1,7 +1,6 @@
-package com.cydeo.tests.extraTasks;
+package com.cydeo.tests.Practice_02_01_2022.EkstraTasks;
 
 import com.cydeo.utilities.WebDriverFactory;
-import com.google.common.base.Verify;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -11,7 +10,7 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class Task_Gas {
+public class Task_GasMileageCalculator {
 
     public WebDriver driver;
 

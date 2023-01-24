@@ -1,16 +1,13 @@
 package com.cydeo.tests.Practice_02_01_2022;
 
-import com.cydeo.utilities.Before_Method;
+import com.cydeo.tests.base.TestBase;
 import com.cydeo.utilities.WaitUtility;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class FirstChallengeZiya extends Before_Method {
+public class FirstChallengeZiya extends TestBase {
 
     WebDriver driver;
 
