@@ -68,7 +68,7 @@ public class T5_T6_T7_DropdownPractice {
             stateDropdown.selectByVisibleText((eachstate.getText()));
             System.out.println(eachstate.getText());
             //  System.out.println(eachstate.getAttribute("value"));
-            WaitUtility.sleep(0.1);
+
 
         }
     }

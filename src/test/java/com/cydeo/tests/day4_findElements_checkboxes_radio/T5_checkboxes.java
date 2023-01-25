@@ -28,7 +28,7 @@ public class T5_checkboxes {
         System.out.println("checkbox2Selected.isSelected() = " + checkbox2Selected.isSelected());
 
 //        4. Click checkbox #1 to select it.
-        WaitUtility.sleep(1.25);
+        WaitUtility.sleep(1);
         checkbox1Selected.click();
 
 //        5. Click checkbox #2 to deselect it.
