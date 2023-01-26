@@ -28,35 +28,35 @@ public class T3_Actions_Hover {
 
         Actions actions = new Actions(Driver.getDriver());
 
-//        2. Hover over to first image
+//2. Hover over to first image
         WaitUtility.sleep(1);
         actions.moveToElement(img1).perform();
         WaitUtility.sleep(2);
-//        3. Assert:
-//        a. “name: user1” is displayed
+//3. Assert:
+//a. “name: user1” is displayed
         Assert.assertTrue(user1.isDisplayed());
-//        b. “view profile” is displayed//a[@text()='View profile']
+//b. “view profile” is displayed//a[@text()='View profile']
         WebElement viewProfile1 = Driver.getDriver().findElement(By.xpath("//a[@href='/users/1']"));
         Assert.assertTrue(viewProfile1.isDisplayed());
 
-//        4. Hover over to second image
+//4. Hover over to second image
         actions.moveToElement(img2).perform();
         WaitUtility.sleep(2);
-//        5. Assert:
-//        a. “name: user2” is displayed
+//5. Assert:
+//a. “name: user2” is displayed
         Assert.assertTrue(user2.isDisplayed());
-//        b. “view profile” is displayed
+//b. “view profile” is displayed
         WebElement viewProfile2 = Driver.getDriver().findElement(By.xpath("//a[@href='/users/2']"));
         Assert.assertTrue(viewProfile2.isDisplayed());
 
-//        6. Hover over to third image
+//6. Hover over to third image
         actions.moveToElement(img3).perform();
         WaitUtility.sleep(2);
-//        7. Confirm:
-//        a. “name: user3” is displayed
+//7. Confirm:
+//a. “name: user3” is displayed
         Assert.assertTrue(user3.isDisplayed());
 
-//        b. “view profile” is displayed
+//b. “view profile” is displayed
         WebElement viewProfile3 = Driver.getDriver().findElement(By.xpath("//a[@href='/users/3']"));
         Assert.assertTrue(viewProfile3.isDisplayed());
 
