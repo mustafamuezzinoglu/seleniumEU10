@@ -17,7 +17,7 @@ public class T6_JavaScriptExecutor {
 //javaScript method to use : window.scrollBy(0,0)
         JavascriptExecutor js = (JavascriptExecutor)  Driver.getDriver();
         WaitUtility.sleep(1);
-        js.executeScript("window.scrollBy(0,7500)");
+        js.executeScript("window.scrollBy(0,7500)","");
 
 //a.  750 pixels down 10 times.
         for (int i = 0; i <10 ; i++) {
@@ -28,7 +28,7 @@ public class T6_JavaScriptExecutor {
 //b.  750 pixels up 10 times
         for (int i = 0; i <10 ; i++) {
             WaitUtility.sleep(1);
-            js.executeScript("window.scrollBy(0,-750)");
+            js.executeScript("window.scrollBy(0,-750)","");
         }
 
 
