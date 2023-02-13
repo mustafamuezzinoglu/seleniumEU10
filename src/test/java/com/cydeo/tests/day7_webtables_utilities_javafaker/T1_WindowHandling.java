@@ -1,7 +1,7 @@
 package com.cydeo.tests.day7_webtables_utilities_javafaker;
 
 import com.cydeo.utilities.BrowserUtils_withDay8Task5;
-import com.cydeo.utilities.ChromeStartUtility;
+import com.cydeo.utilities.utility.ChromeStartUtility;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;

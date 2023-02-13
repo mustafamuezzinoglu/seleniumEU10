@@ -1,14 +1,11 @@
 package com.cydeo.tests.day6_alerts_iframes_windows;
 
-import com.cydeo.utilities.ChromeStartUtility;
-import com.cydeo.utilities.WaitUtility;
-import com.google.common.base.Verify;
+import com.cydeo.utilities.Driver;
+import com.cydeo.utilities.utility.WaitUtility;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.RemoteWebElement;
-import org.openqa.selenium.support.ui.Wait;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -22,7 +19,7 @@ public class Day6_Tasks {
     @BeforeMethod
     public void setupMethod() {
         //1. Open Chrome browser
-        driver = ChromeStartUtility.chromeStart();
+        driver = Driver.getDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 //      2.  Go to website: http://practice.cydeo.com/javascript_alerts

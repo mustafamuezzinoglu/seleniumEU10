@@ -1,7 +1,6 @@
 package com.cydeo.tests.day4_findElements_checkboxes_radio;
 
-import com.cydeo.utilities.ChromeStartUtility;
-import com.cydeo.utilities.WaitUtility;
+import com.cydeo.utilities.utility.WaitUtility;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

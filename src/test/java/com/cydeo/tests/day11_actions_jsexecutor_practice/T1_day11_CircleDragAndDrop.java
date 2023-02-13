@@ -1,7 +1,6 @@
 package com.cydeo.tests.day11_actions_jsexecutor_practice;
 
 import com.cydeo.utilities.Driver;
-import com.cydeo.utilities.WaitUtility;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;

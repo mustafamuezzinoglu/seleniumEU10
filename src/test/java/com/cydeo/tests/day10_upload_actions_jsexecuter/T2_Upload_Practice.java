@@ -1,8 +1,6 @@
 package com.cydeo.tests.day10_upload_actions_jsexecuter;
 
-import com.cydeo.utilities.BrowserUtils_withDay8Task5;
 import com.cydeo.utilities.Driver;
-import com.cydeo.utilities.WaitUtility;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;

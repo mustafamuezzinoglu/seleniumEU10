@@ -1,14 +1,12 @@
 package com.cydeo.tests.day10_upload_actions_jsexecuter;
 
 import com.cydeo.utilities.Driver;
-import com.cydeo.utilities.WaitUtility;
+import com.cydeo.utilities.utility.WaitUtility;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import java.nio.file.WatchEvent;
 
 public class T3_Actions_Hover {
 

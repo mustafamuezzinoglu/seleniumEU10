@@ -1,7 +1,7 @@
 package com.cydeo.tests.day10_upload_actions_jsexecuter;
 
 import com.cydeo.utilities.Driver;
-import com.cydeo.utilities.WaitUtility;
+import com.cydeo.utilities.utility.WaitUtility;
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.annotations.Test;
 

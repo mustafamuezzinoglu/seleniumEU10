@@ -1,12 +1,8 @@
 package com.cydeo.tests.day4_findElements_checkboxes_radio;
 
-import com.cydeo.utilities.ChromeStartUtility;
-import com.cydeo.utilities.WebDriverFactory;
-import com.google.common.base.Verify;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 public class T1_xpath_cssSelector_practice {
 

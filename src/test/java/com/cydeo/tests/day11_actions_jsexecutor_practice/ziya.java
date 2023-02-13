@@ -1,10 +1,9 @@
 package com.cydeo.tests.day11_actions_jsexecutor_practice;
 
 import com.cydeo.utilities.Driver;
-import com.cydeo.utilities.WaitUtility;
+import com.cydeo.utilities.utility.WaitUtility;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.remote.RemoteWebElement;
 import org.testng.annotations.Test;
 
 public class ziya {

@@ -1,6 +1,6 @@
 package com.cydeo.tests.day5_testNG_intro_dropdowns;
 
-import com.cydeo.utilities.ChromeStartUtility;
+import com.cydeo.utilities.utility.ChromeStartUtility;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;

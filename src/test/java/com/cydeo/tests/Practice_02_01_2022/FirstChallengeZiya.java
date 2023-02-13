@@ -1,7 +1,7 @@
 package com.cydeo.tests.Practice_02_01_2022;
 
 import com.cydeo.tests.base.TestBase;
-import com.cydeo.utilities.WaitUtility;
+import com.cydeo.utilities.utility.WaitUtility;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

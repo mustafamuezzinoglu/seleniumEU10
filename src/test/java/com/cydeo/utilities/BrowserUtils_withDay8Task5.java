@@ -1,5 +1,6 @@
 package com.cydeo.utilities;
 
+import com.cydeo.utilities.utility.WaitUtility;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 

@@ -1,4 +1,4 @@
-package com.cydeo.utilities;
+package com.cydeo.utilities.utility;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
@@ -11,4 +11,3 @@ public class ChromeStartUtility {
             return new ChromeDriver();
         }
     }
-

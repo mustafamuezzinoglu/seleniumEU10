@@ -1,9 +1,7 @@
 package com.cydeo.tests.day5_testNG_intro_dropdowns;
 
-import com.cydeo.utilities.ChromeStartUtility;
-import com.cydeo.utilities.WaitUtility;
-import com.google.common.base.Verify;
-import io.github.bonigarcia.wdm.WebDriverManager;
+import com.cydeo.utilities.utility.WaitUtility;
+import com.cydeo.utilities.utility.ChromeStartUtility;
 import org.openqa.selenium.By;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
