@@ -13,11 +13,9 @@ public class TestBase {
 
     @BeforeMethod
     public void setUpMethod() {
-
         driver = WebDriverFactory.getDriver("chrome");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
     }
     @AfterMethod
     public void tearDown(){
