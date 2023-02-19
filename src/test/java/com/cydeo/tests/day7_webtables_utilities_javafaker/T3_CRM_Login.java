@@ -1,12 +1,11 @@
 package com.cydeo.tests.day7_webtables_utilities_javafaker;
 
 import com.cydeo.tests.base.TestBase;
-import com.cydeo.utilities.BrowserUtils_withDay8Task5;
+import com.cydeo.utilities.BrowserUtils;
 import com.cydeo.utilities.CRM_Utilities_day7_task4;
+import com.cydeo.utilities.Driver;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class T3_CRM_Login extends TestBase {
@@ -32,7 +31,7 @@ public class T3_CRM_Login extends TestBase {
 
 //        6. Verify title is as expected:
 //        Expected: Portal
-        BrowserUtils_withDay8Task5.verifyTitle(driver,"Portal");
+        BrowserUtils.verifyTitle("Portal");
     }
 
     @Test
@@ -44,7 +43,7 @@ public class T3_CRM_Login extends TestBase {
         CRM_Utilities_day7_task4.crm_login(driver);
 //        6. Verify title is as expected:
 //        Expected: Portal
-        BrowserUtils_withDay8Task5.verifyTitle(driver,"Portal");
+        BrowserUtils.verifyTitle("Portal");
     }
 
     @Test
@@ -56,7 +55,7 @@ public class T3_CRM_Login extends TestBase {
         CRM_Utilities_day7_task4.crm_login(driver,"helpdesk2@cybertekschool.com", "UserUser" );
 //        6. Verify title is as expected:
 //        Expected: Portal
-        BrowserUtils_withDay8Task5.verifyTitle(driver,"Portal");
+        BrowserUtils.verifyTitle("Portal");
     }
 
 

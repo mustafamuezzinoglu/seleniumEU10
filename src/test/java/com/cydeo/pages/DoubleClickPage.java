@@ -5,15 +5,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class POMExample {
+public class DoubleClickPage {
 
-    public POMExample() {
+    public DoubleClickPage(){
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    @FindBy(id="inputEmail")
-
-    public WebElement inputEmail;
+    @FindBy(id ="demo")
+    public WebElement textToDoubleClick;
 
 
 

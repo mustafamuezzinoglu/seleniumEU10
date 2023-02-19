@@ -1,6 +1,6 @@
 package com.cydeo.tests.day7_webtables_utilities_javafaker;
 
-import com.cydeo.utilities.BrowserUtils_withDay8Task5;
+import com.cydeo.utilities.BrowserUtils;
 import com.cydeo.utilities.utility.ChromeStartUtility;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -40,12 +40,12 @@ public class T1_WindowHandling {
 
 
 //4. Create a logic to switch to the tab where Etsy.com is open
-        BrowserUtils_withDay8Task5.switchWindowAndVerify (driver,"etsy", "Etsy");
+        BrowserUtils.switchWindowAndVerify ("Etsy", "Etsy");
 
 //5. Assert: Title contains “Etsy”
 //  Lines to be pasted
 
-        BrowserUtils_withDay8Task5.verifyTitle(driver, "Etsy");
+        BrowserUtils.verifyTitle( "Etsy");
 //    These lines will simply open new tabs using something called JavascriptExecutor
 //    and get those pages. We will learn JavascriptExecutor later as well.
 
